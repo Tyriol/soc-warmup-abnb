@@ -1,1 +1,16 @@
-/* New page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+html {
+    /* 62.5% will make base font 10px */
+    font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
