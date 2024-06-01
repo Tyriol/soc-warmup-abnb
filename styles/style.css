@@ -5,12 +5,23 @@
     font-size: 1em;
 }
 
-html {
-    /* 62.5% will make base font 10px */
+/* html {
+     62.5% will make base font 10px 
     font-size: 62.5%;
-}
+} */
 
 img {
     max-width: 100%;
     display: block;
+}
+
+#info {
+    font-family: "Montserrat", "Raleway";
+    font-size: 0.975rem;
+    font-weight: 600;
+    line-height: 1.50188rem;
+}
+
+#info a {
+    color: black;
 }
