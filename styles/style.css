@@ -15,13 +15,38 @@ img {
     display: block;
 }
 
-#info {
+#info-container {
     font-family: "Montserrat", "Raleway";
     font-size: 0.975rem;
-    font-weight: 600;
     line-height: 1.50188rem;
+    height: 74px;
+    background-color: #E7E7E2;
 }
 
-#info a {
+#info-banner {
+    height: 53px;
+}
+
+#info-container button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #E7E7E2;
+}
+
+#info-container a {
     color: black;
+    font-weight: 600;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
 }
