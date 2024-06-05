@@ -16,8 +16,8 @@ img {
 }
 
 #info-container {
-    font-family: "Montserrat", "Raleway";
-    font-size: 0.975rem;
+    font-family: "Manrope", "Montserrat", sans-serif;
+    font-size: 0.935rem;
     line-height: 1.50188rem;
     height: 74px;
     background-color: #E7E7E2;
@@ -36,7 +36,7 @@ img {
 
 #info-container a {
     color: black;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .flex {
