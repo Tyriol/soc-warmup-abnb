@@ -88,3 +88,20 @@ img {
     gap: 5px;
     padding-left: 0;
 }
+
+#categoryScroller {
+    height: 74px;
+    padding: 0 24px;
+    font-size: 14px;
+}
+
+#categoryScroller img {
+    width: 24px;
+    height: 24px;
+}
+
+.categoryItem {
+    padding: 4px 0;
+    margin: 12px 0;
+    border: 0;
+}
