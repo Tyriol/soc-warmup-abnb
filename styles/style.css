@@ -101,6 +101,7 @@ img {
     padding: 0 24px;
     font-size: 14px;
     column-gap: 16px;
+    flex-wrap: wrap;
 }
 
 #categoryScroller img {
