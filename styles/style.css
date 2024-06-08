@@ -53,6 +53,10 @@ img {
     display: grid;
 }
 
+.row {
+    flex-direction: column;
+}
+
 .center {
     place-items: center;
 }
@@ -100,8 +104,18 @@ img {
     height: 24px;
 }
 
+#categoryScroller input {
+    appearance: none;
+}
+
 .categoryItem {
+    width: 68.9219px;
     padding: 4px 0;
     margin: 12px 0;
     border: 0;
+    font-size: 12px;
+}
+
+.categoryItem:first-of-type {
+    width: 40px;
 }
