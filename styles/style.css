@@ -10,6 +10,10 @@
     font-size: 62.5%;
 } */
 
+body {
+    font-family: "Manrope", "Montserrat", sans-serif;
+}
+
 header {
     height: 144px;
     border-top-right-radius: 24px;
@@ -22,7 +26,6 @@ img {
 }
 
 #info-container {
-    font-family: "Manrope", "Montserrat", sans-serif;
     font-size: 0.935rem;
     line-height: 1.50188rem;
     height: 74px;
@@ -97,6 +100,7 @@ img {
     height: 74px;
     padding: 0 24px;
     font-size: 14px;
+    column-gap: 16px;
 }
 
 #categoryScroller img {
@@ -114,6 +118,7 @@ img {
     margin: 12px 0;
     border: 0;
     font-size: 12px;
+    font-weight: 600;
 }
 
 .categoryItem:first-of-type {
