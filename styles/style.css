@@ -15,7 +15,6 @@ body {
 }
 
 header {
-    height: 144px;
     border-top-right-radius: 24px;
     border-top-left-radius: 24px;
 }
@@ -54,10 +53,6 @@ img {
 
 .grid {
     display: grid;
-}
-
-.row {
-    flex-direction: column;
 }
 
 .center {
@@ -101,7 +96,10 @@ img {
     padding: 0 24px;
     font-size: 14px;
     column-gap: 16px;
-    flex-wrap: wrap;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    grid-template-areas: none;
+    grid-template-rows: 74px;
 }
 
 #categoryScroller img {
