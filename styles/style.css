@@ -10,8 +10,11 @@
     font-size: 62.5%;
 } */
 
+body {
+    font-family: "Manrope", "Montserrat", sans-serif;
+}
+
 header {
-    height: 144px;
     border-top-right-radius: 24px;
     border-top-left-radius: 24px;
 }
@@ -22,7 +25,6 @@ img {
 }
 
 #info-container {
-    font-family: "Manrope", "Montserrat", sans-serif;
     font-size: 0.935rem;
     line-height: 1.50188rem;
     height: 74px;
@@ -87,4 +89,45 @@ img {
 .anyAnyAdd {
     gap: 5px;
     padding-left: 0;
+}
+
+#categoryScroller {
+    height: 74px;
+    padding: 0 24px;
+    font-size: 14px;
+    column-gap: 16px;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    grid-template-areas: none;
+    grid-template-rows: 74px;
+}
+
+#categoryScroller img {
+    width: 24px;
+    height: 24px;
+    align-self: center;
+}
+
+#categoryScroller span {
+    align-self: center;
+}
+
+#categoryScroller input {
+    appearance: none;
+}
+
+.categoryItem {
+    width: max-content;
+    min-width: 64px;
+    flex-direction: column;
+    padding: 4px 0;
+    margin: 12px 0;
+    border: 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.categoryItem:first-of-type {
+    width: 40px;
+    min-width: 40px;
 }
