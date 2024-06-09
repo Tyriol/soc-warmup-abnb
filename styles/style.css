@@ -105,6 +105,11 @@ img {
 #categoryScroller img {
     width: 24px;
     height: 24px;
+    align-self: center;
+}
+
+#categoryScroller span {
+    align-self: center;
 }
 
 #categoryScroller input {
@@ -112,14 +117,17 @@ img {
 }
 
 .categoryItem {
-    width: 68.9219px;
+    width: max-content;
+    min-width: 64px;
+    flex-direction: column;
     padding: 4px 0;
     margin: 12px 0;
     border: 0;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .categoryItem:first-of-type {
     width: 40px;
+    min-width: 40px;
 }
