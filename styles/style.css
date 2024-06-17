@@ -101,7 +101,7 @@ img {
     grid-auto-flow: column;
     grid-template-areas: none;
     grid-template-rows: 74px;
-
+    overflow: hidden;
 }
 
 #categoryScroller img {
@@ -138,12 +138,12 @@ img {
     margin-top: 24px;
     margin-bottom: 32px;
     padding: 0 24px;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(min-content, max-content);
+    grid-auto-flow: dense;
 }
 
 .listing-gap {
-    grid-template-columns: 382px;
-    grid-auto-rows: minmax(min-content, max-content);
-    grid-auto-flow: dense;
     grid-gap: 40px;
 }
 
@@ -157,6 +157,6 @@ img {
     border-radius: 8px;
 }
 
-.booking-price-status {
+.bold {
     font-weight: 600;
 }
