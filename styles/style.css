@@ -145,3 +145,7 @@ img {
     height: auto;
     border-radius: 8px;
 }
+
+.booking-price-status {
+    font-weight: 600;
+}
