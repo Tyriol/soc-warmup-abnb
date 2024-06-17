@@ -131,3 +131,15 @@ img {
     width: 40px;
     min-width: 40px;
 }
+
+.listing-container {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    padding: 0 24px;
+}
+
+.listing img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
