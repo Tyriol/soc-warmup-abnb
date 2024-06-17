@@ -168,12 +168,13 @@ img {
     right: 10px;
     border-radius: 50%;
     border: none;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)), linear-gradient(0deg, rgba(255, 255, 255, 0.54) 0%, rgba(255, 255, 255, 0.48) 60%, rgba(255, 255, 255, 0.76) 100%);
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
 }
 
 .share {
     width: 32px;
     height: 32px;
-    background-color: #E7E7E2;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
