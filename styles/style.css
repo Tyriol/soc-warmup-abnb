@@ -204,6 +204,22 @@ img {
     margin: 0 -12px;
 }
 
+.getaways-cat-list button {
+    /* align-items: flex-start; */
+    background-attachment: scroll;
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    margin: 6px 6px 6px -10px;
+    text-align: center;
+}
+
+button.first {
+    border-bottom: 2px solid black;
+    font-weight: 600;
+}
+
 .overflow {
     overflow: hidden;
     text-wrap: nowrap;
