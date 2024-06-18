@@ -190,10 +190,18 @@ img {
 
 .getaways-container {
     padding: 48px 24px;
+    background-color: #F7F7F7;
 }
 
 .getaways-container h2 {
     padding-bottom: 8px;
     font-weight: 600;
     font-size: 1.375rem;
+}
+
+/* css for line divider */
+
+.divider {
+    background-color: rgb(221, 221, 221);
+    height: 1px;
 }
