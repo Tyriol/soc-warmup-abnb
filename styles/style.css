@@ -225,6 +225,10 @@ button.first {
     text-wrap: nowrap;
 }
 
+ul {
+    grid-template-columns: repeat(var(--dense-grid-column-count, 2), minmax(0, 1fr));
+}
+
 /* css for line divider */
 
 .divider {
