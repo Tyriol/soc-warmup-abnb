@@ -187,3 +187,13 @@ img {
 .listing div {
     line-height: 22px;
 }
+
+.getaways-container {
+    padding: 48px 24px;
+}
+
+.getaways-container h2 {
+    padding-bottom: 8px;
+    font-weight: 600;
+    font-size: 1.375rem;
+}
