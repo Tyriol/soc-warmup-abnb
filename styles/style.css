@@ -101,7 +101,7 @@ img {
     grid-auto-flow: column;
     grid-template-areas: none;
     grid-template-rows: 74px;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 #categoryScroller img {
@@ -221,7 +221,7 @@ button.first {
 }
 
 .overflow {
-    overflow: hidden;
+    overflow: scroll;
     text-wrap: nowrap;
 }
 
