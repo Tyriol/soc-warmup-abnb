@@ -199,9 +199,17 @@ img {
     margin-bottom: 8px;
 }
 
+.getaways-cat-list {
+    padding: 0 12px;
+    margin: 0 -12px;
+}
+
 /* css for line divider */
 
 .divider {
     background-color: rgb(221, 221, 221);
     height: 1px;
 }
+
+
+/* footer css */
