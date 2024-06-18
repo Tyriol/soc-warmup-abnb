@@ -204,6 +204,11 @@ img {
     margin: 0 -12px;
 }
 
+.overflow {
+    overflow: hidden;
+    text-wrap: nowrap;
+}
+
 /* css for line divider */
 
 .divider {
