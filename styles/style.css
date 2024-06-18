@@ -217,6 +217,9 @@ img {
 
 button.first {
     border-bottom: 2px solid black;
+}
+
+.first {
     font-weight: 600;
 }
 
@@ -225,8 +228,28 @@ button.first {
     text-wrap: nowrap;
 }
 
+.getaways-table {
+    padding-top: 32px;
+}
+
 ul {
     grid-template-columns: repeat(var(--dense-grid-column-count, 2), minmax(0, 1fr));
+    column-gap: 8px;
+    row-gap: 24px;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.getaways {
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.getaways button {
+    column-gap: 8px;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
 }
 
 /* css for line divider */
