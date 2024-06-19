@@ -11,7 +11,7 @@
 } */
 
 body {
-    font-family: "Manrope", "Montserrat", sans-serif;
+    font-family: "Montserrat", "Manrope", sans-serif;
 }
 
 header {
@@ -321,4 +321,50 @@ ol li {
     width: 19px;
     text-align: center;
     display: inline-block;
+}
+
+/* bottom nav css */
+
+nav {
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link:first-of-type {
+    color: #E81948 !important;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.nav-text {
+    font-size: 10px;
+    font-weight: 600;
+    color: #6A6A6A;
+}
+
+.nav-links-container {
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1 0 auto;
+    max-width: 100%;
+}
+
+.nav-link {
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
+    max-width: 20%;
+    min-width: 0px;
+}
+
+.nav-icon {
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
 }
