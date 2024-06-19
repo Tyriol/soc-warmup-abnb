@@ -295,3 +295,19 @@ h3 {
 .mar-right-8 {
     margin-right: 8px;
 }
+
+.copyright {
+    margin-bottom: 2px;
+}
+
+span.link-list {
+    margin-top: 2px;
+}
+
+ol {
+    display: inline;
+}
+
+ol li {
+    display: inline-block;
+}
