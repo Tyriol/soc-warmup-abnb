@@ -322,3 +322,13 @@ ol li {
     text-align: center;
     display: inline-block;
 }
+
+/* bottom nav css */
+
+nav {
+    height: 125px;
+    position: fixed;
+    bottom: -60px;
+    background-color: white;
+    width: 100%;
+}
