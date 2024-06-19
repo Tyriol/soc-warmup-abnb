@@ -280,3 +280,18 @@ section ul {
 h3 {
     margin-bottom: 12px;
 }
+
+/* useful links css */
+
+#loc-curr {
+    margin-bottom: 22px;
+    font-size: 14px;
+}
+
+.mar-right-24 {
+    margin-right: 24px;
+}
+
+.mar-right-8 {
+    margin-right: 8px;
+}
