@@ -111,14 +111,20 @@ img {
     overflow: scroll;
 }
 
+#categoryScroller::-webkit-scrollbar {
+    display: none;
+}
+
 #categoryScroller img {
     width: 24px;
     height: 24px;
     align-self: center;
+    margin-bottom: 4px;
 }
 
 #categoryScroller span {
     align-self: center;
+    font-weight: 600;
 }
 
 #categoryScroller input {
