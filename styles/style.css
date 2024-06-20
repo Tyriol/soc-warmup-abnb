@@ -147,6 +147,17 @@ img {
     min-width: 40px;
 }
 
+.categoryItem:first-of-type::after {
+    background-color: black;
+    color: black;
+    content: "";
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    top: 142px;
+    left: 29px;
+}
+
 .listing-container {
     margin-top: 24px;
     margin-bottom: 32px;
