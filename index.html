@@ -27,327 +27,330 @@
             </button>
         </div>
     </div>
-    <!-- Header section with Search Button and Accommodation types nav bar -->
-    <header>
-        <!-- Search button -->
-        <div id="search">
-            <div class="search-container">
-                <button class="grid">
-                    <span class="grid center">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"
-                            role="presentation" focusable="false"
-                            style="display: block; height: 20px; width: 20px; fill: currentcolor;">
+    <div class="page-content">
+        <!-- Header section with Search Button and Accommodation types nav bar -->
+        <header>
+            <!-- Search button -->
+            <div id="search">
+                <div class="search-container">
+                    <button class="grid">
+                        <span class="grid center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"
+                                role="presentation" focusable="false"
+                                style="display: block; height: 20px; width: 20px; fill: currentcolor;">
+                                <path
+                                    d="M13 0a13 13 0 0 1 10.5 20.67l7.91 7.92-2.82 2.82-7.92-7.91A12.94 12.94 0 0 1 13 26a13 13 0 1 1 0-26zm0 4a9 9 0 1 0 0 18 9 9 0 0 0 0-18z">
+                                </path>
+                            </svg>
                             <path
                                 d="M13 0a13 13 0 0 1 10.5 20.67l7.91 7.92-2.82 2.82-7.92-7.91A12.94 12.94 0 0 1 13 26a13 13 0 1 1 0-26zm0 4a9 9 0 1 0 0 18 9 9 0 0 0 0-18z">
                             </path>
-                        </svg>
-                        <path
-                            d="M13 0a13 13 0 0 1 10.5 20.67l7.91 7.92-2.82 2.82-7.92-7.91A12.94 12.94 0 0 1 13 26a13 13 0 1 1 0-26zm0 4a9 9 0 1 0 0 18 9 9 0 0 0 0-18z">
-                        </path>
-                    </span>
-                    <span>
-                        <div>Where to?</div>
-                        <div class="container flex anyAnyAdd">
-                            <span>Anywhere</span>
-                            <span>•</span>
-                            <span>Any week</span>
-                            <span>•</span>
-                            <span>Add guests</span>
-                        </div>
-                    </span>
-                </button>
-            </div>
-        </div>
-        <!-- Accommodation Types Nav Bar -->
-        <div id="categoryScroller" class="grid">
-            <label for="icons" class="categoryItem">
-                <img src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
-                    alt="ticket stub" />
-                <span>Icons</span>
-                <input type="radio" id="icons" name="categoryScroller" />
-            </label>
-            <label for="offTheGrid" class="categoryItem flex">
-                <img src="https://a0.muscache.com/pictures/9a2ca4df-ee90-4063-b15d-0de7e4ce210a.jpg"
-                    alt=" square broken off" />
-                <span>Off-the-grid</span>
-                <input type="radio" id="offTheGrid" name="categoryScroller" />
-            </label>
-            <label for="lakeFront" class="categoryItem flex">
-                <img src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg"
-                    alt=" square broken off" />
-                <span>Lakefront</span>
-                <input type="radio" id="lakeFront" name="categoryScroller" />
-            </label>
-            <label for="farms" class="categoryItem flex">
-                <img src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg"
-                    alt=" square broken off" />
-                <span>Farms</span>
-                <input type="radio" id="farms" name="categoryScroller" />
-            </label>
-            <label for="beach" class="categoryItem flex">
-                <img src="https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg"
-                    alt=" square broken off" />
-                <span>Beach</span>
-                <input type="radio" id="beach" name="categoryScroller" />
-            </label>
-            <label for="bnb" class="categoryItem flex">
-                <img src="https://a0.muscache.com/pictures/5ed8f7c7-2e1f-43a8-9a39-4edfc81a3325.jpg"
-                    alt=" square broken off" />
-                <span>Bed & breakfasts</span>
-                <input type="radio" id="bnb" name="categoryScroller" />
-            </label>
-        </div>
-    </header>
-    <!-- listings -->
-    <main id="site-content">
-        <div class="listing-container">
-            <div class="listing-gap grid">
-                <div class="listing flex">
-                    <div class="listing-image">
-                        <button class="flex">
-                            <div class="share flex">
-                                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-                                    role="presentation" focusable="false"
-                                    style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 3; overflow: visible;">
-                                    <path
-                                        d="m27 18v9c0 1.1046-.8954 2-2 2h-18c-1.10457 0-2-.8954-2-2v-9m11-15v21m-10-11 9.2929-9.29289c.3905-.39053 1.0237-.39053 1.4142 0l9.2929 9.29289"
-                                        fill="none"></path>
-                                </svg>
+                        </span>
+                        <span>
+                            <div>Where to?</div>
+                            <div class="container flex anyAnyAdd">
+                                <span>Anywhere</span>
+                                <span>•</span>
+                                <span>Any week</span>
+                                <span>•</span>
+                                <span>Add guests</span>
                             </div>
-                        </button>
-                        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MjI1MjI0NDQ0MzYzMjM4Mg%3D%3D/original/ae3426d1-fba4-44d4-bed2-690426f25f7a.jpeg?im_w=720&im_q=highq"
-                            alt="listing images">
-                    </div>
-                    <div>
-                        <div class="bold">
-                            <p>Open the Olympic Games at Musée d’Orsay</p>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <!-- Accommodation Types Nav Bar -->
+            <div id="categoryScroller" class="grid">
+                <label for="icons" class="categoryItem">
+                    <img src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+                        alt="ticket stub" />
+                    <span>Icons</span>
+                    <input type="radio" id="icons" name="categoryScroller" />
+                </label>
+                <label for="offTheGrid" class="categoryItem flex">
+                    <img src="https://a0.muscache.com/pictures/9a2ca4df-ee90-4063-b15d-0de7e4ce210a.jpg"
+                        alt=" square broken off" />
+                    <span>Off-the-grid</span>
+                    <input type="radio" id="offTheGrid" name="categoryScroller" />
+                </label>
+                <label for="lakeFront" class="categoryItem flex">
+                    <img src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg"
+                        alt=" square broken off" />
+                    <span>Lakefront</span>
+                    <input type="radio" id="lakeFront" name="categoryScroller" />
+                </label>
+                <label for="farms" class="categoryItem flex">
+                    <img src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg"
+                        alt=" square broken off" />
+                    <span>Farms</span>
+                    <input type="radio" id="farms" name="categoryScroller" />
+                </label>
+                <label for="beach" class="categoryItem flex">
+                    <img src="https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg"
+                        alt=" square broken off" />
+                    <span>Beach</span>
+                    <input type="radio" id="beach" name="categoryScroller" />
+                </label>
+                <label for="bnb" class="categoryItem flex">
+                    <img src="https://a0.muscache.com/pictures/5ed8f7c7-2e1f-43a8-9a39-4edfc81a3325.jpg"
+                        alt=" square broken off" />
+                    <span>Bed & breakfasts</span>
+                    <input type="radio" id="bnb" name="categoryScroller" />
+                </label>
+            </div>
+        </header>
+        <!-- listings -->
+        <main id="site-content">
+            <div class="listing-container">
+                <div class="listing-gap grid">
+                    <div class="listing flex">
+                        <div class="listing-image">
+                            <button class="flex">
+                                <div class="share flex">
+                                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        role="presentation" focusable="false"
+                                        style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 3; overflow: visible;">
+                                        <path
+                                            d="m27 18v9c0 1.1046-.8954 2-2 2h-18c-1.10457 0-2-.8954-2-2v-9m11-15v21m-10-11 9.2929-9.29289c.3905-.39053 1.0237-.39053 1.4142 0l9.2929 9.29289"
+                                            fill="none"></path>
+                                    </svg>
+                                </div>
+                            </button>
+                            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MjI1MjI0NDQ0MzYzMjM4Mg%3D%3D/original/ae3426d1-fba4-44d4-bed2-690426f25f7a.jpeg?im_w=720&im_q=highq"
+                                alt="listing images">
                         </div>
                         <div>
-                            <p>Hosted by Mathieu Lehanneur</p>
-                        </div>
-                        <div class="bold">
-                            <p>Booking closed</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="listing flex">
-                    <div class="listing-image">
-                        <button class="flex">
-                            <div class="share flex">
-                                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-                                    role="presentation" focusable="false"
-                                    style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 3; overflow: visible;">
-                                    <path
-                                        d="m27 18v9c0 1.1046-.8954 2-2 2h-18c-1.10457 0-2-.8954-2-2v-9m11-15v21m-10-11 9.2929-9.29289c.3905-.39053 1.0237-.39053 1.4142 0l9.2929 9.29289"
-                                        fill="none"></path>
-                                </svg>
+                            <div class="bold">
+                                <p>Open the Olympic Games at Musée d’Orsay</p>
                             </div>
-                        </button>
-                        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MjI1MjI0NDQ0MzYzMjM4Mg%3D%3D/original/ae3426d1-fba4-44d4-bed2-690426f25f7a.jpeg?im_w=720&im_q=highq"
-                            alt="listing images">
+                            <div>
+                                <p>Hosted by Mathieu Lehanneur</p>
+                            </div>
+                            <div class="bold">
+                                <p>Booking closed</p>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <div class="bold">
-                            <p>Open the Olympic Games at Musée d’Orsay</p>
+                    <div class="listing flex">
+                        <div class="listing-image">
+                            <button class="flex">
+                                <div class="share flex">
+                                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        role="presentation" focusable="false"
+                                        style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 3; overflow: visible;">
+                                        <path
+                                            d="m27 18v9c0 1.1046-.8954 2-2 2h-18c-1.10457 0-2-.8954-2-2v-9m11-15v21m-10-11 9.2929-9.29289c.3905-.39053 1.0237-.39053 1.4142 0l9.2929 9.29289"
+                                            fill="none"></path>
+                                    </svg>
+                                </div>
+                            </button>
+                            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MjI1MjI0NDQ0MzYzMjM4Mg%3D%3D/original/ae3426d1-fba4-44d4-bed2-690426f25f7a.jpeg?im_w=720&im_q=highq"
+                                alt="listing images">
                         </div>
                         <div>
-                            <p>Hosted by Mathieu Lehanneur</p>
-                        </div>
-                        <div class="bold">
-                            <p>Booking closed</p>
+                            <div class="bold">
+                                <p>Open the Olympic Games at Musée d’Orsay</p>
+                            </div>
+                            <div>
+                                <p>Hosted by Mathieu Lehanneur</p>
+                            </div>
+                            <div class="bold">
+                                <p>Booking closed</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="future-getaways">
-            <div class="getaways-container">
-                <h2>Inspiration for future getaways</h2>
-                <div class="getaways-cat-table">
-                    <div class="getaways-cat-nav">
-                        <div class="getaways-cat-list">
-                            <div class="overflow flex">
-                                <button class="bold">Popular</button>
-                                <button>Historic</button>
-                                <button>Coastal</button>
-                                <button>Islands</button>
-                                <button>Lakes</button>
-                                <button>Unique Stays</button>
-                                <button>Categories</button>
+            <div id="future-getaways">
+                <div class="getaways-container">
+                    <h2>Inspiration for future getaways</h2>
+                    <div class="getaways-cat-table">
+                        <div class="getaways-cat-nav">
+                            <div class="getaways-cat-list">
+                                <div class="overflow flex">
+                                    <button class="bold">Popular</button>
+                                    <button>Historic</button>
+                                    <button>Coastal</button>
+                                    <button>Islands</button>
+                                    <button>Lakes</button>
+                                    <button>Unique Stays</button>
+                                    <button>Categories</button>
+                                </div>
                             </div>
+                            <div class="divider"></div>
+                            <button class="getaways"></button>
                         </div>
-                        <div class="divider"></div>
-                        <button class="getaways"></button>
-                    </div>
-                    <div class="getaways-table-container">
-                        <div class="getaways-table">
-                            <ul class="grid">
-                                <li>
-                                    <div class="getaways flex">
-                                        <span class="bold">Aberfeldy</span>
-                                        <span>Holiday Rentals</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="getaways flex">
-                                        <span class="bold">Amsterdam</span>
-                                        <span>Bungalow Rentals</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="getaways flex">
-                                        <span class="bold">Athens</span>
-                                        <span>Villa Rentals</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="getaways flex">
-                                        <span class="bold">Aviemore</span>
-                                        <span>Holiday Rentals</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="getaways flex">
-                                        <span class="bold">Bakewell</span>
-                                        <span>Holiday Rentals</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="getaways flex">
-                                        <span class="bold">Barcelona</span>
-                                        <span>Flat Rentals</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="getaways flex">
-                                        <span class="bold">Bath</span>
-                                        <span>Holiday Rentals</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="getaways flex">
-                                        <button class="flex">
-                                            <span class="bold">Show more</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
-                                                aria-hidden="true" role="presentation" focusable="false"
-                                                style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 5.33333; overflow: visible;">
-                                                <path fill="none" d="M28 12 16.7 23.3a1 1 0 0 1-1.4 0L4 12"></path>
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </li>
-                            </ul>
+                        <div class="getaways-table-container">
+                            <div class="getaways-table">
+                                <ul class="grid">
+                                    <li>
+                                        <div class="getaways flex">
+                                            <span class="bold">Aberfeldy</span>
+                                            <span>Holiday Rentals</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="getaways flex">
+                                            <span class="bold">Amsterdam</span>
+                                            <span>Bungalow Rentals</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="getaways flex">
+                                            <span class="bold">Athens</span>
+                                            <span>Villa Rentals</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="getaways flex">
+                                            <span class="bold">Aviemore</span>
+                                            <span>Holiday Rentals</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="getaways flex">
+                                            <span class="bold">Bakewell</span>
+                                            <span>Holiday Rentals</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="getaways flex">
+                                            <span class="bold">Barcelona</span>
+                                            <span>Flat Rentals</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="getaways flex">
+                                            <span class="bold">Bath</span>
+                                            <span>Holiday Rentals</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="getaways flex">
+                                            <button class="flex">
+                                                <span class="bold">Show more</span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                                    aria-hidden="true" role="presentation" focusable="false"
+                                                    style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 5.33333; overflow: visible;">
+                                                    <path fill="none" d="M28 12 16.7 23.3a1 1 0 0 1-1.4 0L4 12"></path>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="divider"></div>
-    </main>
-    <footer>
-        <div class="footer">
-            <div>
-                <section id="support">
-                    <h3>Support</h3>
-                    <ul class="grid">
-                        <li><span>Help Center</span></li>
-                        <li><span>AirCover</span></li>
-                        <li><span>Anti-discrimintation</span></li>
-                        <li><span>Disability Support</span></li>
-                        <li><span>Cancellation options</span></li>
-                        <li><span>Report neighbourhood concern</span></li>
-                    </ul>
-                </section>
-                <div class="divider"></div>
-                <section id="hosting-info">
-                    <h3>Hosting</h3>
-                    <ul class="grid">
-                        <li><span>Airbnb your home</span></li>
-                        <li><span>AirCover for Hosts</span></li>
-                        <li><span>Hosting resources</span></li>
-                        <li><span>Community forum</span></li>
-                        <li><span>Hosting responsibly</span></li>
-                        <li><span>Join a free Hosting class</span></li>
-                    </ul>
-                </section>
-                <div class="divider"></div>
-                <section id="about-airbnb">
-                    <h3>Airbnb</h3>
-                    <ul class="grid">
-                        <li><span>Newsroom</span></li>
-                        <li><span>New features</span></li>
-                        <li><span>Careers</span></li>
-                        <li><span>Investors</span></li>
-                        <li><span>Gift cards</span></li>
-                        <li><span>Airbnb.org emergency stays</span></li>
-                    </ul>
-                </section>
-                <div class="divider"></div>
-            </div>
-            <div>
-                <section>
-                    <div>
-                        <div id="loc-curr">
-                            <div class="flex">
-                                <span class="flex mar-right-24">
-                                    <span class="mar-right-8"><svg xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 16 16" aria-hidden="true" role="presentation" focusable="false"
-                                            style="display: block; height: 16px; width: 16px; fill: currentcolor;">
-                                            <path
-                                                d="M8 .25a7.77 7.77 0 0 1 7.75 7.78 7.75 7.75 0 0 1-7.52 7.72h-.25A7.75 7.75 0 0 1 .25 8.24v-.25A7.75 7.75 0 0 1 8 .25zm1.95 8.5h-3.9c.15 2.9 1.17 5.34 1.88 5.5H8c.68 0 1.72-2.37 1.93-5.23zm4.26 0h-2.76c-.09 1.96-.53 3.78-1.18 5.08A6.26 6.26 0 0 0 14.17 9zm-9.67 0H1.8a6.26 6.26 0 0 0 3.94 5.08 12.59 12.59 0 0 1-1.16-4.7l-.03-.38zm1.2-6.58-.12.05a6.26 6.26 0 0 0-3.83 5.03h2.75c.09-1.83.48-3.54 1.06-4.81zm2.25-.42c-.7 0-1.78 2.51-1.94 5.5h3.9c-.15-2.9-1.18-5.34-1.89-5.5h-.07zm2.28.43.03.05a12.95 12.95 0 0 1 1.15 5.02h2.75a6.28 6.28 0 0 0-3.93-5.07z">
-                                            </path>
-                                        </svg></span>
-                                    <span class="bold">English(GB)</span>
-                                </span>
-                                <span class="flex">
-                                    <span class="mar-right-8 bold">&#163;</span>
-                                    <span class="bold">GBP</span>
-                                </span>
+            <div class="divider"></div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div>
+                    <section id="support">
+                        <h3>Support</h3>
+                        <ul class="grid">
+                            <li><span>Help Center</span></li>
+                            <li><span>AirCover</span></li>
+                            <li><span>Anti-discrimintation</span></li>
+                            <li><span>Disability Support</span></li>
+                            <li><span>Cancellation options</span></li>
+                            <li><span>Report neighbourhood concern</span></li>
+                        </ul>
+                    </section>
+                    <div class="divider"></div>
+                    <section id="hosting-info">
+                        <h3>Hosting</h3>
+                        <ul class="grid">
+                            <li><span>Airbnb your home</span></li>
+                            <li><span>AirCover for Hosts</span></li>
+                            <li><span>Hosting resources</span></li>
+                            <li><span>Community forum</span></li>
+                            <li><span>Hosting responsibly</span></li>
+                            <li><span>Join a free Hosting class</span></li>
+                        </ul>
+                    </section>
+                    <div class="divider"></div>
+                    <section id="about-airbnb">
+                        <h3>Airbnb</h3>
+                        <ul class="grid">
+                            <li><span>Newsroom</span></li>
+                            <li><span>New features</span></li>
+                            <li><span>Careers</span></li>
+                            <li><span>Investors</span></li>
+                            <li><span>Gift cards</span></li>
+                            <li><span>Airbnb.org emergency stays</span></li>
+                        </ul>
+                    </section>
+                    <div class="divider"></div>
+                </div>
+                <div>
+                    <section>
+                        <div>
+                            <div id="loc-curr">
+                                <div class="flex">
+                                    <span class="flex mar-right-24">
+                                        <span class="mar-right-8"><svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 16 16" aria-hidden="true" role="presentation"
+                                                focusable="false"
+                                                style="display: block; height: 16px; width: 16px; fill: currentcolor;">
+                                                <path
+                                                    d="M8 .25a7.77 7.77 0 0 1 7.75 7.78 7.75 7.75 0 0 1-7.52 7.72h-.25A7.75 7.75 0 0 1 .25 8.24v-.25A7.75 7.75 0 0 1 8 .25zm1.95 8.5h-3.9c.15 2.9 1.17 5.34 1.88 5.5H8c.68 0 1.72-2.37 1.93-5.23zm4.26 0h-2.76c-.09 1.96-.53 3.78-1.18 5.08A6.26 6.26 0 0 0 14.17 9zm-9.67 0H1.8a6.26 6.26 0 0 0 3.94 5.08 12.59 12.59 0 0 1-1.16-4.7l-.03-.38zm1.2-6.58-.12.05a6.26 6.26 0 0 0-3.83 5.03h2.75c.09-1.83.48-3.54 1.06-4.81zm2.25-.42c-.7 0-1.78 2.51-1.94 5.5h3.9c-.15-2.9-1.18-5.34-1.89-5.5h-.07zm2.28.43.03.05a12.95 12.95 0 0 1 1.15 5.02h2.75a6.28 6.28 0 0 0-3.93-5.07z">
+                                                </path>
+                                            </svg></span>
+                                        <span class="bold">English(GB)</span>
+                                    </span>
+                                    <span class="flex">
+                                        <span class="mar-right-8 bold">&#163;</span>
+                                        <span class="bold">GBP</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div id="legal">
+                                <div class="copyright">
+                                    © 2024 Airbnb, Inc.
+                                </div>
+                                <div class="link-list">
+                                    <span class="link-list">
+                                        <ol>
+                                            <li>
+                                                <span>Privacy</span>
+                                                <span class="spacer">·</span>
+                                            </li>
+                                            <li>
+                                                <span>Terms</span>
+                                                <span class="spacer">·</span>
+                                            </li>
+                                            <li>
+                                                <span>Sitemap</span>
+                                                <span class="spacer">·</span>
+                                            </li>
+                                            <li>
+                                                <span>UK Modern Slavery Act</span>
+                                                <span class="spacer">·</span>
+                                            </li>
+                                            <li>
+                                                <span>Company details</span>
+                                                <span class="spacer">·</span>
+                                            </li>
+                                            <li>
+                                                <span>Airbnb UK Limited S.172 Statement</span>
+                                                <span class="spacer">·</span>
+                                            </li>
+                                            <li>
+                                                <span>Airbnb Payments S.172 Statement</span>
+                                            </li>
+                                        </ol>
+                                    </span>
+                                </div>
                             </div>
                         </div>
-                        <div id="legal">
-                            <div class="copyright">
-                                © 2024 Airbnb, Inc.
-                            </div>
-                            <div class="link-list">
-                                <span class="link-list">
-                                    <ol>
-                                        <li>
-                                            <span>Privacy</span>
-                                            <span class="spacer">·</span>
-                                        </li>
-                                        <li>
-                                            <span>Terms</span>
-                                            <span class="spacer">·</span>
-                                        </li>
-                                        <li>
-                                            <span>Sitemap</span>
-                                            <span class="spacer">·</span>
-                                        </li>
-                                        <li>
-                                            <span>UK Modern Slavery Act</span>
-                                            <span class="spacer">·</span>
-                                        </li>
-                                        <li>
-                                            <span>Company details</span>
-                                            <span class="spacer">·</span>
-                                        </li>
-                                        <li>
-                                            <span>Airbnb UK Limited S.172 Statement</span>
-                                            <span class="spacer">·</span>
-                                        </li>
-                                        <li>
-                                            <span>Airbnb Payments S.172 Statement</span>
-                                        </li>
-                                    </ol>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                    </section>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <nav class="flex">
         <div class="flex nav-links-container">
             <div class="flex nav-link">
