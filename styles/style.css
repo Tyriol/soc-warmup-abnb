@@ -177,14 +177,18 @@ img {
 }
 
 .listing img {
+    object-fit: cover;
+    background-size: cover;
     border-radius: 0.8em;
     width: 100%;
-    height: calc(100% - 16px);
+    height: calc(100% - 1.15em);
+    aspect-ratio: 1 /1;
     overflow: hidden;
 }
 
 .listing-image {
     position: relative;
+    width: 100%;
 }
 
 .listing-share {
