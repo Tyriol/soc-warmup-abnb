@@ -177,14 +177,18 @@ img {
 }
 
 .listing img {
+    object-fit: cover;
+    background-size: cover;
     border-radius: 0.8em;
     width: 100%;
-    height: calc(100% - 16px);
+    height: calc(100% - 1.15em);
+    aspect-ratio: 1 /1;
     overflow: hidden;
 }
 
 .listing-image {
     position: relative;
+    width: 100%;
 }
 
 .listing-share {
@@ -208,6 +212,13 @@ img {
     width: 15%;
     font-weight: 500;
     justify-content: center;
+}
+
+.past-container h2 {
+    margin-top: 52px;
+    margin-bottom: 24px;
+    font-size: 2em;
+    font-weight: 600;
 }
 
 .share {
