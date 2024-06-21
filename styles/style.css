@@ -226,6 +226,29 @@ img {
     line-height: 22px;
 }
 
+.dots {
+    position: absolute;
+    bottom: 1.5em;
+    right: 6rem;
+    left: 6rem;
+    justify-content: center;
+    opacity: 0.85;
+}
+
+.white-dot {
+    color: white;
+    fill: white;
+    height: 0.9em;
+    width: 0.9em;
+}
+
+.grey-dot {
+    color: lightgrey;
+    fill: lightgrey;
+    height: 0.9em;
+    width: 0.9em;
+}
+
 .getaways-container {
     padding: 48px 24px;
     background-color: #F7F7F7;
