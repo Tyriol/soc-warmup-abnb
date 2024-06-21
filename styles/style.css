@@ -86,17 +86,28 @@ img {
     height: 54px;
     background: transparent;
     border: 0;
-    padding: 0;
+    padding: 0 4px;
     box-shadow: 0 3px 10px rgba(0 0 0 / 0.1);
     border: 0.5px solid rgba(0 0 0 / 0.08);
     border-radius: 1000px;
     text-align: left;
-    font-size: 0.875rem;
+    font-size: 0.875em;
+}
+
+.search-params {
+    padding-left: 2px;
+    line-height: 1.25em;
+}
+
+.where-to {
+    font-weight: 600;
 }
 
 .anyAnyAdd {
     gap: 5px;
     padding-left: 0;
+    font-size: 0.86em;
+    color: rgb(106, 106, 106);
 }
 
 #categoryScroller {
