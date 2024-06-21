@@ -214,6 +214,13 @@ img {
     justify-content: center;
 }
 
+.past-container h2 {
+    margin-top: 52px;
+    margin-bottom: 24px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
 .share {
     width: 32px;
     height: 32px;
