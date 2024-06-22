@@ -5,11 +5,6 @@
     font-size: 1em;
 }
 
-/* html {
-     62.5% will make base font 10px 
-    font-size: 62.5%;
-} */
-
 body {
     font-family: "Montserrat", "Manrope", sans-serif;
 }
@@ -116,7 +111,6 @@ button {
 #categoryScroller {
     height: 74px;
     padding: 0 24px;
-    /* font-size: 14px; */
     column-gap: 16px;
     grid-auto-columns: max-content;
     grid-auto-flow: column;
