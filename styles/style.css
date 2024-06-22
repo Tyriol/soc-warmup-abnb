@@ -130,7 +130,7 @@ button {
     overflow: scroll;
 }
 
-#categoryScroller::-webkit-scrollbar {
+.no-scrollbar::-webkit-scrollbar {
     display: none;
 }
 
