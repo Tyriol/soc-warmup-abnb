@@ -91,7 +91,6 @@ button {
     width: 100%;
     height: 54px;
     background: transparent;
-    border: 0;
     padding: 0 4px;
     box-shadow: 0 3px 10px rgba(0 0 0 / 0.1);
     border: 0.5px solid rgba(0 0 0 / 0.08);
@@ -103,10 +102,6 @@ button {
 .search-params {
     padding-left: 2px;
     line-height: 1.25em;
-}
-
-.where-to {
-    font-weight: 600;
 }
 
 .anyAnyAdd {
@@ -121,7 +116,7 @@ button {
 #categoryScroller {
     height: 74px;
     padding: 0 24px;
-    font-size: 14px;
+    /* font-size: 14px; */
     column-gap: 16px;
     grid-auto-columns: max-content;
     grid-auto-flow: column;
@@ -143,7 +138,6 @@ button {
 
 #categoryScroller span {
     align-self: center;
-    font-weight: 600;
 }
 
 #categoryScroller input {
@@ -237,11 +231,10 @@ button {
     justify-content: center;
 }
 
-.past-container h2 {
+.past-container {
     margin-top: 52px;
     margin-bottom: 24px;
     font-size: 2em;
-    font-weight: 600;
 }
 
 .share {
@@ -283,13 +276,14 @@ button {
     width: 0.9em;
 }
 
+/* future getaways css */
+
 .getaways-container {
     padding: 48px 24px;
     background-color: #F7F7F7;
 }
 
 .getaways-container h2 {
-    font-weight: 600;
     font-size: 1.375rem;
     margin-bottom: 8px;
 }
@@ -300,7 +294,6 @@ button {
 }
 
 .getaways-cat-list button {
-    /* align-items: flex-start; */
     background-attachment: scroll;
     background-color: transparent;
     padding: 10px;
@@ -312,10 +305,6 @@ button {
 
 button.first {
     border-bottom: 2px solid black;
-}
-
-.bold {
-    font-weight: 600;
 }
 
 .overflow {
@@ -344,7 +333,6 @@ ul {
     column-gap: 8px;
     background-color: transparent;
     border: none;
-    font-weight: 600;
 }
 
 /* css for line divider */
@@ -435,14 +423,10 @@ nav {
 }
 
 .nav-link:first-of-type {
-    color: #E81948 !important;
-    font-size: 10px;
-    font-weight: 600;
+    color: #E81948;
 }
 
 .nav-text {
-    font-size: 10px;
-    font-weight: 600;
     color: #6A6A6A;
 }
 
@@ -459,6 +443,7 @@ nav {
     flex: 1 1 0;
     max-width: 20%;
     min-width: 0px;
+    font-size: 10px;
 }
 
 .nav-icon {
